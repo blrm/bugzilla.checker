@@ -1,4 +1,4 @@
-(defproject bugzilla.checker "0.2.0-SNAPSHOT"
+(defproject org.clojars.blrm/bugzilla.checker "0.2.0-SNAPSHOT"
   :description "A lightweight bugzilla client that checks for whether bugs are still open."
   :jvm-opts ["-Xmx128m"]
   :dependencies [[org.clojure/clojure "1.3.0"]

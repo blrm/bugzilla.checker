@@ -21,7 +21,9 @@
 (def ^:dynamic *password*  nil)
 (def ^:dynamic *open-statuses*
   #{"NEW"
-    "ASSIGNED"})
+    "ASSIGNED"
+    "MODIFIED"
+    "POST"})
 
 (defn get-bug
   ([buggable] (get-bug *url* *user* *password* buggable))
